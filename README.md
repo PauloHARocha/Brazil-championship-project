@@ -1,15 +1,26 @@
-Olá Paulo!
+# Machine Learning Challenge DataScienceBr
 
-Você está recebendo este repositório porque está no processo seletivo para a vaga de cientista de dados na Data Science Brigade.
+> Paulo Rocha
 
-Solicitamos que você realize esse teste prático. 
+## About
 
-Esperamos que você crie um modelo de Machine Learning capaz de prever os resultados dos jogos da Série A do Brasileirão 2017.
-Você pode encontrar os resultados de todas as partidas desde 2003 neste repositório:
-https://github.com/openfootball/br-brazil
+A challenge to evaluate knowledge in Machine Learning.
 
-Será avaliado qualidade de código, habilidade de fazer previsões e documentação do processo de descoberta do modelo final.
-Solicito que você utilize este repositório para entregar a solução e que nos avise através do bruno@datasciencebr.com assim que estiver com o teste pronto.
-A solução pode ser feita na tecnologia de sua preferência e estamos disponíveis para qualquer dúvida.
+# Librarys and packages
 
-Aguardamos sua proposta de solução até 18:00(BRT) de 22 de Abril.
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Jupyter
+
+## How to test it locally
+
+1. run `git clone https://gitlab.com/datasciencebr/test-paulo-rocha.git` to clone this repository
+2. `git checkout solution` to access the solution branch with the results
+2. make sure you have python 3 installed in your local machine, you can download at `https://python.org`
+3. `cd test-paulo-rocha/` then run `virtualenv env --python=python3` to create the python environment
+4. `source env/bin/activate` to start the environment and `pip install -r requirements.txt` to install the librarys
+5. `jupyter notebook solution.ipynb` to initialize the jupyter notebook
+6. `git clone https://github.com/openfootball/br-brazil` to get the original resources 
